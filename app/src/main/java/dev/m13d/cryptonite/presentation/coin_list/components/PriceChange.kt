@@ -29,7 +29,7 @@ import dev.m13d.cryptonite.ui.theme.greenBackground
 @Composable
 fun PriceChange(
     change: DisplayableNumber,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     val contentColor = if(change.value < 0.0) {
         MaterialTheme.colorScheme.onErrorContainer
@@ -47,7 +47,7 @@ fun PriceChange(
             .clip(RoundedCornerShape(100f))
             .background(backgroundColor)
             .padding(horizontal = 4.dp),
-        verticalAlignment = Alignment.CenterVertically
+        verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(
             imageVector = if(change.value < 0.0) {
@@ -57,13 +57,13 @@ fun PriceChange(
             },
             contentDescription = null,
             modifier = Modifier.size(20.dp),
-            tint = contentColor
+            tint = contentColor,
         )
         Text(
             text = "${change.formatted} %",
             color = contentColor,
             fontSize = 14.sp,
-            fontWeight = FontWeight.Medium
+            fontWeight = FontWeight.Medium,
         )
     }
 }
@@ -77,7 +77,7 @@ private fun PriceChangePreview() {
         PriceChange(
             change = DisplayableNumber(
                 value = 2.43,
-                formatted = "2.43"
+                formatted = "2.43",
             )
         )
     }

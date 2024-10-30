@@ -31,7 +31,7 @@ fun Coin.toCoinUi(): CoinUi {
         priceUsd = priceUsd.toDisplayableNumber(),
         marketCapUsd = marketCapUsd.toDisplayableNumber(),
         changePercent24Hr = changePercent24Hr.toDisplayableNumber(),
-        iconRes = getDrawableIdForCoin(symbol)
+        iconRes = getDrawableIdForCoin(symbol),
     )
 }
 
@@ -42,6 +42,6 @@ fun Double.toDisplayableNumber(): DisplayableNumber {
     }
     return DisplayableNumber(
         value = this,
-        formatted = formatter.format(this)
+        formatted = formatter.format(this),
     )
 }

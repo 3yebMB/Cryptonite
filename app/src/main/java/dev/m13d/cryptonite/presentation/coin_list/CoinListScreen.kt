@@ -25,27 +25,26 @@ import dev.m13d.cryptonite.ui.theme.CryptoniteTheme
 @Composable
 fun CoinListScreen(
     state: CoinListState,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     if(state.isLoading) {
         Box(
             modifier = modifier
                 .fillMaxSize(),
-            contentAlignment = Alignment.Center
+            contentAlignment = Alignment.Center,
         ) {
             CircularProgressIndicator()
         }
     } else {
         LazyColumn(
-            modifier = modifier
-                .fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
+            modifier = modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             items(state.coins) { coinUi ->
                 CoinListItem(
                     coinUi = coinUi,
                     onClick = { /*TODO*/ },
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
                 )
                 HorizontalDivider()
             }
@@ -66,7 +65,7 @@ private fun CoinListScreenPreview() {
                 }
             ),
             modifier = Modifier
-                .background(MaterialTheme.colorScheme.background)
+                .background(MaterialTheme.colorScheme.background),
         )
     }
 }

@@ -12,21 +12,21 @@ import dev.m13d.cryptonite.R
 val SpaceMono = FontFamily(
     Font(
         resId = R.font.space_mono_regular,
-        weight = FontWeight.Normal
+        weight = FontWeight.Normal,
     ),
     Font(
         resId = R.font.space_mono_italic,
         weight = FontWeight.Normal,
-        style = FontStyle.Italic
+        style = FontStyle.Italic,
     ),
     Font(
         resId = R.font.space_mono_bold,
-        weight = FontWeight.Bold
+        weight = FontWeight.Bold,
     ),
     Font(
         resId = R.font.space_mono_bold_italic,
         weight = FontWeight.Bold,
-        style = FontStyle.Italic
+        style = FontStyle.Italic,
     ),
 )
 
@@ -40,14 +40,14 @@ val Typography = Typography(
     bodyMedium = TextStyle(
         fontFamily = SpaceMono,
         fontWeight = FontWeight.Normal,
-        fontSize = 14.sp
+        fontSize = 14.sp,
     ),
     bodyLarge = TextStyle(
         fontFamily = SpaceMono,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
+        letterSpacing = 0.5.sp,
     ),
     labelMedium = TextStyle(
         fontFamily = SpaceMono,
@@ -56,6 +56,6 @@ val Typography = Typography(
     headlineMedium = TextStyle(
         fontFamily = SpaceMono,
         fontWeight = FontWeight.Bold,
-        fontSize = 18.sp
+        fontSize = 18.sp,
     )
 )
