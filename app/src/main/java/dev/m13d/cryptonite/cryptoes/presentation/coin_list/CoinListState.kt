@@ -1,7 +1,7 @@
 package dev.m13d.cryptonite.presentation.coin_list.components
 
 import androidx.compose.runtime.Immutable
-import dev.m13d.cryptonite.presentation.model.CoinUi
+import dev.m13d.cryptonite.cryptoes.presentation.model.CoinUi
 
 @Immutable
 data class CoinListState(

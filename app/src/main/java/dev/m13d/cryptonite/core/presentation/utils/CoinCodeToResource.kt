@@ -1,4 +1,4 @@
-package dev.m13d.cryptonite.utils
+package dev.m13d.cryptonite.core.presentation.utils
 
 import dev.m13d.cryptonite.R
 

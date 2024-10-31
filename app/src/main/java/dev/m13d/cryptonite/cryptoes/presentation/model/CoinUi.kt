@@ -1,9 +1,9 @@
-package dev.m13d.cryptonite.presentation.model
+package dev.m13d.cryptonite.cryptoes.presentation.model
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
-import dev.m13d.cryptonite.domain.Coin
-import dev.m13d.cryptonite.utils.getDrawableIdForCoin
+import dev.m13d.cryptonite.cryptoes.domain.Coin
+import dev.m13d.cryptonite.core.presentation.utils.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(

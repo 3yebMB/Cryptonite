@@ -1,4 +1,4 @@
-package dev.m13d.cryptonite.utils
+package dev.m13d.cryptonite.core.domain.utils
 
 typealias DomainError = Error
 typealias EmptyResult<E> = Result<Unit, E>

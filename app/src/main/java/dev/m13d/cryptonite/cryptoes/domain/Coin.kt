@@ -1,4 +1,4 @@
-package dev.m13d.cryptonite.domain
+package dev.m13d.cryptonite.cryptoes.domain
 
 data class Coin(
     val id: String,

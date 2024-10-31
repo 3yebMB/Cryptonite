@@ -1,4 +1,4 @@
-package dev.m13d.cryptonite.presentation.coin_list.components
+package dev.m13d.cryptonite.cryptoes.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -25,9 +25,9 @@ import androidx.compose.ui.tooling.preview.PreviewDynamicColors
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.m13d.cryptonite.domain.Coin
-import dev.m13d.cryptonite.presentation.model.CoinUi
-import dev.m13d.cryptonite.presentation.model.toCoinUi
+import dev.m13d.cryptonite.cryptoes.domain.Coin
+import dev.m13d.cryptonite.cryptoes.presentation.model.CoinUi
+import dev.m13d.cryptonite.cryptoes.presentation.model.toCoinUi
 import dev.m13d.cryptonite.ui.theme.CryptoniteTheme
 
 @Composable

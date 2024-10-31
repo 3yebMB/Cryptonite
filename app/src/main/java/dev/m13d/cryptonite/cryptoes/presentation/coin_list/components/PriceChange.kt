@@ -1,4 +1,4 @@
-package dev.m13d.cryptonite.presentation.coin_list.components
+package dev.m13d.cryptonite.cryptoes.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -22,7 +22,7 @@ import androidx.compose.ui.tooling.preview.PreviewDynamicColors
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dev.m13d.cryptonite.presentation.model.DisplayableNumber
+import dev.m13d.cryptonite.cryptoes.presentation.model.DisplayableNumber
 import dev.m13d.cryptonite.ui.theme.CryptoniteTheme
 import dev.m13d.cryptonite.ui.theme.greenBackground
 
